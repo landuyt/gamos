@@ -940,7 +940,7 @@ p.big-text {
 
 .gallery_outer {
     background: none repeat scroll 0 0 #FFFFFF;
-    padding:120px 0 90px 0;
+    padding:0px 0 90px 0;
 }
 .isotom_lant {
     margin: 0;
@@ -1278,7 +1278,7 @@ p.big-text {
 /* ====================================================== */
 
 footer {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 .footer_icons a {
 	border-radius:50px;

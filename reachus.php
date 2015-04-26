@@ -7,7 +7,7 @@
     $msgs     = $_POST['msg'];
     
     if($name !='' && $email!='' && $phone !='' && $msg_subject !='' && $msgs !=''){
-        $to = "lanternthemes@gmail.com";
+        $to = "agapatsa@gmail.com";
 	$subject = "Contact Mail";
 	$message = "<p>Dear Admin,</p><p>You have a contact request </p><p>Please find the below information</p>
                     <p>Name :".$name."</p>
