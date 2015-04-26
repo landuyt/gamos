@@ -15,21 +15,15 @@ function initialize() {
   var contentString_eri = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
-      '<h3 id="firstHeading" class="firstHeading">Erimitis</h3>'+
+      '<h4 id="firstHeading" class="firstHeading">Erimitis Bar & Restaurant</h4>'+
       '<div id="bodyContent">'+
-      '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
-      'sandstone rock formation in the southern part of the '+
-      'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
-      'south west of the nearest large town, Alice Springs; 450&#160;km '+
-      'Heritage Site.</p>'+
-      '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-      'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-      '(last visited June 22, 2009).</p>'+
+      '<p>Reception as of <b>7:00 pm</b></p>'+
       '</div>'+
       '</div>';
 
   var infowindow_eri = new google.maps.InfoWindow({
-      content: contentString_eri
+      content: contentString_eri,
+      maxWidth: 200
   });
 
     var marker_eri = new google.maps.Marker({
@@ -48,23 +42,15 @@ function initialize() {
   });
 
   var contentString_xara = '<div id="content">'+
-      '<div id="siteNotice">'+
-      '</div>'+
-      '<h3 id="firstHeading" class="firstHeading">Charalambos</h3>'+
+      '<h4 id="firstHeading" class="firstHeading">Church of Agios Charalambos</h4>'+
       '<div id="bodyContent">'+
-      '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
-      'sandstone rock formation in the southern part of the '+
-      'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
-      'south west of the nearest large town, Alice Springs; 450&#160;km '+
-      'Heritage Site.</p>'+
-      '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-      'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-      '(last visited June 22, 2009).</p>'+
+      '<p>Ceremony at <b>5:00 pm</b></p>'+
       '</div>'+
       '</div>';
 
   var infowindow_xara = new google.maps.InfoWindow({
-      content: contentString_xara
+      content: contentString_xara,
+      maxWidth: 200
   });
 
 
