@@ -4,7 +4,8 @@ function initialize() {
     center: new google.maps.LatLng(39.2095699,20.165664),
     zoom: 13,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    scrollwheel: false
+    scrollwheel: false,
+    draggable: false
   }
 
   var xaralampos = new google.maps.LatLng(39.199993,20.168699);

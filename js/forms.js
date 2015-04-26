@@ -97,7 +97,7 @@ function contact_submit()
 	}
 	if(submit_flag != 'yes')
 	{	
-		$('#contact-error').show().html('Please review the above details filled');
+		$('#contact-error').show().html('Please correct the above information');
 	}
 	else
 	{

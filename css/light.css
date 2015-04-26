@@ -180,30 +180,6 @@
 	border:8px solid rgba(0,0,0,0.3);
 }
 
-/* ====================================================== */
-/* 07. Our Love Story Styles                              */
-/* ====================================================== */
-
-.lovestory_parallax {
-    background: url("../img/parallax07.jpg") no-repeat fixed center center;
-    color: #000000;
-}
-.lovestory_bottom_parallax {
-    background:rgba(170,207,242,0.7);
-}
-.lovestory_bottom_parallax h2 {
-    color: #000000;
-	text-shadow:0 1px 1px rgba(251, 251, 251, 0.5);
-}
-.lovestory_bottom_parallax p {
-    color: #000000;
-}
-.lovestory_bottom_bg {
-}
-.lovestory_bottom_parallax .content_white {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: #000000;
-}
 
 /* ====================================================== */
 /* 08. Photo Gallery Styles                               */
@@ -217,37 +193,6 @@
 }
 .option-set li a:hover, .option-set li a.selected {
     background-color: #333333;
-}
-
-/* ====================================================== */
-/* 09. RSVP Styles                                        */
-/* ====================================================== */
-
-.rsvp_main {
-    background: url("../img/parallax04.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
-}
-.rsvp_main_parallax {
-    background:rgba(244,68,130,0.9) url(../img/arrow.png) repeat-x top;
-}
-.rsvp_bottom_bg {
-    background:url(../img/arrow1.png) repeat-x bottom;
-}
-.rsvp_main_parallax h2 {
-	text-shadow:0 1px 1px rgba(251, 251, 251, 0.5);
-}
-.rsvp_main_parallax h4 {
-	color:#000000;
-	text-shadow:0 1px 1px rgba(251, 251, 251, 0.5);
-}
-.rsvp_main_parallax p {
-	color:#000000;
-}
-.rsvp_outer {
-    background: none repeat scroll 0 0 #FFFFFF;
-}
-#rsvp-form hr {
-	background:none;
-	border-bottom:1px solid rgba(251,251,251,0.1);
 }
 
 /* ====================================================== */
