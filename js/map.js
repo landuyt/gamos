@@ -18,6 +18,7 @@ function initialize() {
       '<h4 id="firstHeading" class="firstHeading">Erimitis Bar & Restaurant</h4>'+
       '<div id="bodyContent">'+
       '<p>Reception as of <b>7:00 pm</b></p>'+
+      '<p><a href="http://www.erimitis.com" target="_blank">Website of Erimitis</a></p>'+
       '</div>'+
       '</div>';
 
