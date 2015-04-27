@@ -237,7 +237,7 @@
 }
 .input_text {
     color: #2e5282;
-	background-color:rgba(255,255,255,0.6);
+	background-color:rgba(255,255,255,0.7);
     border-color:rgba(0,0,0,0.1);
 	border-radius:5px;
 	-webkit-border-radius:5px;
@@ -247,7 +247,7 @@
     border-color: rgba(0, 0, 0, 0.3);
 }
 .textarea_text {
-	background-color:rgba(255,255,255,0.8);
+	background-color:rgba(255,255,255,0.7);
     color: #2e5282;
 	border-radius:5px;
 	-webkit-border-radius:5px;
@@ -255,6 +255,14 @@
 }
 .textarea_text_w {
     border-color: rgba(0, 0, 0, 0.2);
+}
+
+.presents{
+    background-color:rgba(255,255,255,0.7);
+}
+
+.white{
+    color:#fff;
 }
 
 /* Placeholder Property */
