@@ -66,15 +66,7 @@ function contact_submit()
 			submit_flag = 'no';
 	}
 	var contact_phone = $('#contact-phone').val();
-	if($('#contact-phone').val() =='')
-	{
-			if(submit_flag == 'yes')
-			{
-				$('#contact-phone').focus();
-			}
-			$('#contact-phone').addClass('error');
-			submit_flag = 'no';
-	}
+
 	var contact_subject = $('#contact-subject').val()
 	if( contact_subject =='')
 	{
