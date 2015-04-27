@@ -5,7 +5,7 @@ function initialize() {
     zoom: 13,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     scrollwheel: false,
-    draggable: false
+    draggable: true
   }
 
   var xaralampos = new google.maps.LatLng(39.199993,20.168699);
@@ -44,7 +44,7 @@ function initialize() {
   });
 
   var contentString_xara = '<div id="content">'+
-      '<h4 id="firstHeading" class="firstHeading">Church of Agios Charalambos</h4>'+
+      '<h4 id="firstHeading" class="firstHeading">Church of Saint Charalambos</h4>'+
       '<div id="bodyContent">'+
       '<p>Ceremony at <b>5:00 pm</b></p>'+
       '</div>'+

@@ -1355,7 +1355,7 @@ h2 {
     font-size: 3em;
 }
 h3 {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 h4 {
     font-size: 1.5em;
@@ -1398,6 +1398,9 @@ h5 {
 }
 .isotom_lant li {
     width:50%;
+}
+#map-canvas {
+    height: 400px;
 }
 
 }
