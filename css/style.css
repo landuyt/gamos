@@ -1263,6 +1263,7 @@ p.big-text {
     margin: 20px 0 0;
     padding: 0;
 	color:#FF0000;
+    font-size: 1.3em;
 }
 #contact-loading, #contact-success, #contact-failed {
     display: none;

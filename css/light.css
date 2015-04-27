@@ -323,19 +323,19 @@
     color: #FF0000;
 }
 #contact-form .error, #rsvp-form .error {
-    border: 1px solid #FF0000;
+    border: 1px solid #990000;
 }
 #contact-error, #rsvp-error {
-	color:#FF0000;
+	color:#990000;
 }
 #contact-loading, #contact-success, #contact-failed {
     background-color: rgba(251, 251, 251, 0.3);
 }
 #contact-loading, #contact-failed {
-    color: #FF0000;
+    color: #990000;
 }
 #contact-success {
-    color:#FF0000;
+    color:#2e5282;
 }
 
 /* ====================================================== */
