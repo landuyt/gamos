@@ -1,11 +1,14 @@
 function initialize() {
   var mapCanvas = document.getElementById('map-canvas');
+
+  var isDraggable = $(document).width() > 480 ? true : false;
+
   var mapOptions = {
     center: new google.maps.LatLng(39.2095699,20.165664),
     zoom: 13,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    scrollwheel: false,
-    draggable: true
+    draggable: isDraggable,
+    scrollwheel: false
   }
 
   var vlaherna = new google.maps.LatLng(39.208586,20.16348);
