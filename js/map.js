@@ -8,7 +8,7 @@ function initialize() {
     draggable: true
   }
 
-  var xaralampos = new google.maps.LatLng(39.199993,20.168699);
+  var vlaherna = new google.maps.LatLng(39.208586,20.16348);
   var erimitis = new google.maps.LatLng(39.203792,20.141201);
 
   var map = new google.maps.Map(mapCanvas, mapOptions);
@@ -44,7 +44,7 @@ function initialize() {
   });
 
   var contentString_xara = '<div id="content">'+
-      '<h4 id="firstHeading" class="firstHeading">Church of Saint Charalambos</h4>'+
+      '<h4 id="firstHeading" class="firstHeading">Church of Panagia Vlaherna</h4>'+
       '<div id="bodyContent">'+
       '<p>Ceremony at <b>5:00 pm</b></p>'+
       '</div>'+
@@ -57,9 +57,9 @@ function initialize() {
 
 
   var marker_xara = new google.maps.Marker({
-    position: xaralampos,
+    position: vlaherna,
     map: map,
-    title:"Church of Agios Charalambos",
+    title:"Church of Panagia Vlaherna",
     icon: {
         path: fontawesome.markers.HEART,
         scale: 0.4,
